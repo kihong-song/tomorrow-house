@@ -1,13 +1,15 @@
 @import './constants/_colors';
 @import './constants/typography';
+@import './constants/breakpoints';
 
 @import './base/_font';
 @import './base/normalize';
 @import './base/_reset';
 
 @import './mixins/text-style';
+@import './mixins/responsive';
 
-@import './layouts/_gird';
+@import './layouts/gird';
 
 $black: #000000;
 $dark: #191a20;
