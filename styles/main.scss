@@ -1,16 +1,17 @@
-//@import './constants/_colors';
-//@import './constants/typography';
-//@import './constants/breakpoints';
-//
-//@import './base/_font';
-//@import './base/normalize';
-//@import './base/_reset';
-//
-//@import './mixins/text-style';
-//@import './mixins/responsive';
-@import './mixins/positions';
+@import './constants/_colors';
+@import './constants/typography';
+@import './constants/breakpoints';
 
-//@import './layouts/gird';
+@import './base/_font';
+@import './base/normalize';
+@import './base/_reset';
+
+@import './mixins/text-style';
+@import './mixins/responsive';
+@import './mixins/positions';
+@import './mixins/flexbox';
+
+@import './layouts/gird';
 
 $black: #000000;
 $dark: #191a20;
